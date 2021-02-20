@@ -8,7 +8,10 @@ const Stack = createStackNavigator()
 export default function RestaurantStack() {
     return (    
         <Stack.Navigator>
-          <Stack.Screen  name="StackRestaurant" component={Restaurants} options={{ title:'Restaurantes' }} />
+          <Stack.Screen
+                name="StackRestaurant" 
+                component={Restaurants} 
+                options={{ title:'Restaurantes' }} />
         </Stack.Navigator>
     )
 }

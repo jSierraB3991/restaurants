@@ -8,7 +8,10 @@ const Stack = createStackNavigator()
 export default function AccountStack() {
     return (    
         <Stack.Navigator>
-          <Stack.Screen  name="StackAccount" component={Account} options={{ title:'Cuenta' }} />
+          <Stack.Screen  
+                name="StackAccount" 
+                component={Account} 
+                options={{ title:'Cuenta' }} />
         </Stack.Navigator>
     )
 }
